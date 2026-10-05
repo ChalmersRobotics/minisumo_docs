@@ -1,0 +1,44 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "MiniSumo++"
+  subtitle: A **beginner-friendly robot kit**, you only need to solder it together! All things included, **no previous experience required**. Buy a kit from us or source your own components. Built to be a *starting point* for further robotics projects if you want.
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "Minisumo_RobotSM 2025.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "docs/"
+  cta2Button:
+    icon: construction
+    btnText: "Get the Code"
+    url: "https://github.com/ChalmersRobotics/minisumoplusplus2027"
+
+  info: "**Open Source** GPL-3.0 Licensed? Created by Chalmers Robotics Society (CRF)"
+
+featureGrid:
+  enable: false
+
+imageCompare:
+  enable: false

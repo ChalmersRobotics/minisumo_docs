@@ -1,0 +1,17 @@
+# Temporary files
+*.000
+*.bak
+*.bck
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+*.tmp
+~*.lck
+
+# publishDir for Hugo, is rebuilt by GitHub when any push occur
+public/
+
